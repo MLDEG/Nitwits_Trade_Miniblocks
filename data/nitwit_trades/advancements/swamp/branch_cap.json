@@ -1,0 +1,4 @@
+{
+"parent": "nitwit_trades:swamp/sculk",
+"criteria": { "nitwit_trades:swamp_cap": { "trigger": "minecraft:location" } }
+}

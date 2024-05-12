@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:swamp/amethyst_block",
+"display": {
+	"icon": { "item": "minecraft:mud" },
+	"title": { "translate": "block.minecraft.mud" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:mud": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -2117054607, -270775264, -1709818464, -1252332469], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVkMjFmNDYzNjIyMTBjNzc2Y2MxNWM0YTkxOWNhNjgxODM3NThjZDZmMDkyM2Y1NzQwMDIxYTkxZWJmOGViNCJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

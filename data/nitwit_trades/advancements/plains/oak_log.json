@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:plains/oak_planks",
+"display": {
+	"icon": { "item": "minecraft:oak_log" },
+	"title": { "translate": "block.minecraft.oak_log" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:oak_log": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; 1671593870, -240760377, -1085542796, -2086627135], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0NDI2MjU2NGFjNWEwMDQ5YTk4MjU1OGQwODc3MzNiMGVlMmI1YTJiZjVmYzVmZGFmZTZlMDhmNDk2MTc0YyJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

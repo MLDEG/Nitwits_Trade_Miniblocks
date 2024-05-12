@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:snow/moss_block",
+"display": {
+	"icon": { "item": "minecraft:end_portal_frame" },
+	"title": { "translate": "block.minecraft.end_portal_frame" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:end_portal_frame": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; 1731735608, -1694282311, -1475170688, 1720316741], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ2ODRlM2U3ODkwY2FmN2QxMzc2MmVhMTllYjE0YzU5NDBiODhmZDdmMDc3ZDgxZTZlZmZiNGY2ZGYxNmMyNiJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

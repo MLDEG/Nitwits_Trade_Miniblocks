@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:swamp/chiseled_stone_bricks",
+"display": {
+	"icon": { "id": "minecraft:andesite" },
+	"title": { "translate": "block.minecraft.andesite" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:andesite": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1ZTE2Yzc2MWUwYWFhMmRkNTI4OWU0M2Y1MmNjNDcxNTY3Y2Q4ZjhjOGE0NzVhNGIyOTBhZWU4Y2ZhNDUzOCJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:plains/nether_wart_block",
+"display": {
+	"icon": { "item": "minecraft:warped_nylium" },
+	"title": { "translate": "block.minecraft.warped_nylium" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:warped_nylium": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; 1488690378, 1263879664, -1616710678, -1752882933], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFmOTFlNzczODQ3MDQ1ODA3MDRhOWY0NTcwYWM1NGU0YjM2YzE3NTdjNWFkYWI2NWNjNDU0ZTZmZmYyZDNiMCJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

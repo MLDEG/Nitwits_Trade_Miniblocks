@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:desert/exposed_copper",
+"display": {
+	"icon": { "item": "minecraft:weathered_copper" },
+	"title": { "translate": "block.minecraft.weathered_copper" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:weathered_copper": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{SkullOwner:{Id:[I;-1762166422,-805352794,-1665951735,-1537236399],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE1N2U0NmViMWVhZDkwNzFjZDhkNjEzYTgxY2Q1NWM1OTMxY2I2ZGJhZTRkZmJmMTQ1OGYyOGY5OWVlN2Y0NCJ9fX0='}]}}}"
+				}
+			]
+		}
+	}
+}
+}

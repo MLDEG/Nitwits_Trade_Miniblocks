@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:jungle/dispenser",
+"display": {
+	"icon": { "item": "minecraft:observer" },
+	"title": { "translate": "block.minecraft.observer" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:observer": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -547711844, 1039089685, -1124404881, -1339205488], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkyZjRmMTU1ZGE5ZjE0MTc3NDY0MjkwODY1YTFiMjVhMjBhZTAyZTA4NzRiYmM5N2RhNTEzZGNmMzM3ZTY1YyJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

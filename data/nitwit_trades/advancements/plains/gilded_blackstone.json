@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:plains/chiseled_polished_blackstone",
+"display": {
+	"icon": { "item": "minecraft:gilded_blackstone" },
+	"title": { "translate": "block.minecraft.gilded_blackstone" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:gilded_blackstone": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; 1575730194, 775964324, -1610503867, 163413616], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ4MmQxYmE0YmRhYzk5MGY2ZWE5ODc3MDM1ODdmZDc5ZmU1NTU1NTM2MzI1MTk4NDY3OWQ0ZjI3OWNjMGMyYSJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

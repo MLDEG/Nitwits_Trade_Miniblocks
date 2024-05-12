@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:snow/calcite",
+"display": {
+	"icon": { "item": "minecraft:dripstone_block" },
+	"title": { "translate": "block.minecraft.dripstone_block" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:dripstone_block": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -44111765, -1260369525, -2099864530, -71592865], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg0OWY2NjBkNGY3MzJjYjMyZDkzZmExMTQ5ODMwYzM5NWIzM2RmYjJkMGIwNjcwZDMzMjJkMDkxZTk4NzAxNSJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

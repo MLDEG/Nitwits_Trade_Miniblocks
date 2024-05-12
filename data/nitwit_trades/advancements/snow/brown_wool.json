@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:snow/purple_wool",
+"display": {
+	"icon": { "item": "minecraft:brown_wool" },
+	"title": { "translate": "block.minecraft.brown_wool" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:brown_wool": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -1220350653, 1286950307, -1723473863, -1467804931], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjYmQ5ZjQzNjE5YWI1Y2IxYjExZjkxY2IwM2U5NTVjNmZjNmM0NThhYmY4OWFiNjEwMzEzNDZhMDkwNjEyZSJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:swamp/sculk_shrieker",
+"display": {
+	"icon": { "item": "minecraft:sculk_catalyst" },
+	"title": { "translate": "block.minecraft.sculk_catalyst" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:sculk_catalyst": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -1482790122, 695684307, -1158628516, -567019125], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjMjMxMmMzNzVlMWQzMzQ4MjM0YzcyZjcwMTc2OTJjOTgxNmIxZTU5NGFjZDlmZmMyOWUyNmI4M2MwYjM3ZiJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

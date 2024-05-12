@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:plains/netherite_block",
+"display": {
+	"icon": { "item": "minecraft:bedrock" },
+	"title": { "translate": "block.minecraft.bedrock" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:bedrock": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; 369902713, -559397082, -1105705496, -509566672], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMWZhYmRmM2UzNDI2NzFiZDlmOTVmNjg3ZmUyNjNmNDM5ZGRjMmYxYzllYThmZjE1YjEzZjFlN2U0OGI5In19fQ==' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

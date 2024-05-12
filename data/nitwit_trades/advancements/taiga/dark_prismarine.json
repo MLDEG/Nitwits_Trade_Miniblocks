@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:taiga/prismarine_bricks",
+"display": {
+	"icon": { "item": "minecraft:dark_prismarine" },
+	"title": { "translate": "block.minecraft.dark_prismarine" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:dark_prismarine": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -1799842724, 546590149, -1149614187, 490826710], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ5MTg1OTg5ODk1NDk1OTQ0NDZlODNmMzM4NzM4OTExNzhkYTlkYjQyZjkxMmU1MjcyZTFmYjI0MDMxMmEifX19' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

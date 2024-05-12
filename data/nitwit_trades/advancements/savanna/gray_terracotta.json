@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:savanna/black_terracotta",
+"display": {
+	"icon": { "item": "minecraft:gray_terracotta" },
+	"title": { "translate": "block.minecraft.gray_terracotta" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:gray_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; 1015268143, 1117670864, -1349924238, 516205472], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVmYTdiNWU1ZTYzZDQ2ZDE0NjE1YzYxYmVkMTU0MjdkOTBiMjYxYzdjYTVlODE1OWM0NjZmMDk1NjFkYSJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:swamp/polished_granite",
+"display": {
+	"icon": { "item": "minecraft:clay" },
+	"title": { "translate": "block.minecraft.clay" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:clay": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -781671474, 194596528, -1278393834, 413024264], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc4MjY4MjllYWI1YWQ2MmYwYzExZDlmYWFmZGM5OTU0MzY0ODcxMTYwZGQ4MzllMWFiNWEzYjIxM2EzMyJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

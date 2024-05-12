@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:jungle/root",
+"display": {
+	"icon": { "item": "minecraft:jungle_planks" },
+	"title": { "translate": "block.minecraft.jungle_planks" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:jungle_planks": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -1253899014, 1510032467, -1727836853, 1476834528], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ5ZGQ3ZTU1ZWNiMDI1ZjdmNmNhYTc5OWU0YjBhMGM1NDg2MDk3YTU3N2Q2M2ZmMjIyYmYzMzhmNWViMCJ9fX0=' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}

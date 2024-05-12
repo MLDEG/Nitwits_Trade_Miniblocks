@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:desert/deepslate_copper_ore",
+"display": {
+	"icon": { "item": "minecraft:raw_copper_block" },
+	"title": { "translate": "block.minecraft.raw_copper_block" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:raw_copper_block": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{SkullOwner:{Id:[I;1671646978,-686928275,-1302770116,-1204514428],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWExMjJiMzEyYzAzN2NjZmYxZTUyYTU5M2I2ZGIyNjRlMWI0Y2M5NjQ5YjRmNzYzYjY1OTYyZjFhMThjMzI4NCJ9fX0='}]}}}"
+				}
+			]
+		}
+	}
+}
+}

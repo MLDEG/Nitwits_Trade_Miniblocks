@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:swamp/quartz_block",
+"display": {
+	"icon": { "id": "minecraft:pearlescent_froglight" },
+	"title": { "translate": "block.minecraft.pearlescent_froglight" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:pearlescent_froglight": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY4NzY3MmQ5NzYwYmI1OWQ1MzlmYjVhYWE1ZmE1MDIwMTE4ZDhkM2I3N2ViNTgxNTcxNTNkYWViYWJjZTJhMCJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

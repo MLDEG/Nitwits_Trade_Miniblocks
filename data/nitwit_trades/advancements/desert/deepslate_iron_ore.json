@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:desert/iron_ore",
+"display": {
+	"icon": { "item": "minecraft:deepslate_iron_ore" },
+	"title": { "translate": "block.minecraft.deepslate_iron_ore" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:deepslate_iron_ore": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{SkullOwner:{Id:[I;-254106580,-701282208,-1627783387,1115790952],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FlY2Y4ZDVhMjFiM2M5ZmM4Y2U1YTU2NjAyMWYzYTJiMGQ5ODY1MmRiYzVkYWVlNDVmN2M2MzY0N2VkMTQxYSJ9fX0='}]}}}"
+				}
+			]
+		}
+	}
+}
+}

@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:plains/polished_blackstone_bricks",
+"display": {
+	"icon": { "id": "minecraft:chiseled_polished_blackstone" },
+	"title": { "translate": "block.minecraft.chiseled_polished_blackstone" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:chiseled_polished_blackstone": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkOWFlNmQ5YTAxZjAzOGZjYmE5ZGVkNzJjMWNmZDhjNzk0YTZiYTU4ZjllNjVhNDQ0OGNmZmViZWU2NTNlYiJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

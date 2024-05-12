@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:taiga/stripped_spruce_log",
+"display": {
+	"icon": { "item": "minecraft:dirt" },
+	"title": { "translate": "block.minecraft.dirt" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:dirt": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"item": "minecraft:player_head",
+				"nbt": "{ SkullOwner: { Id: [I; -905830593, 1342326450, -1087072169, 2030633423], Properties: { textures: [ { Value: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFiNDNiOGMzZDM0ZjEyNWU1YTNmOGI5MmNkNDNkZmQxNGM2MjQwMmMzMzI5ODQ2MWQ0ZDRkN2NlMmQzYWVhIn19fQ==' } ] } } }"
+				}
+			]
+		}
+	}
+}
+}
