@@ -15,7 +15,7 @@
 			"items": [
 				{
 				"items": "minecraft:player_head",
-				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ5YzYzYmM1MDg3MjMzMjhhMTllNTk3ZjQwODYyZDI3YWQ1YzFkNTQ1NjYzYWMyNDQ2NjU4MmY1NjhkOSJ9fX0=" }] } }
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQzMzlkNTIzOTNkNTE4M2EzNjY0MDE1YzBiMmM2YzEwMTJlYTFiNTI1ZWQ5NTIwNzMzMTFjYTE4MGEwZTYifX19" }] } }
 				}
 			]
 		}

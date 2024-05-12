@@ -259,7 +259,7 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "dirt",                texture: "MWFiNDNiOGMzZDM0ZjEyNWU1YTNmOGI5MmNkNDNkZmQxNGM2MjQwMmMzMzI5ODQ2MWQ0ZDRkN2NlMmQzYWVhIn19fQ==", sound: "gravel" },\
 		{ name: "dirt_path",           texture: "MzVhOWNmZGI3OGFjMWJlYjc4MjNiY2M4N2I3ZTNhZjgyZGFlZTEwYTU3ODM1ZGM0Y2I2MzJiZjFjZWUyMTU4MCJ9fX0=", sound: "grass" },\
 		{ name: "fire_coral",          texture: "OWZlOGRlZDNjNzRlYWNkNzg0MTJhOTAzYjkwNGY1NTc3ODUwZDFlMjBkMzQ4NzhmZDc3NTk3YWQxNjMzYmY3NCJ9fX0=", sound: "coral_block" },\
-		{ name: "grass_block",         texture: "MzQ5YzYzYmM1MDg3MjMzMjhhMTllNTk3ZjQwODYyZDI3YWQ1YzFkNTQ1NjYzYWMyNDQ2NjU4MmY1NjhkOSJ9fX0=",     sound: "grass" },\
+		{ name: "grass_block",         texture: "ZWQzMzlkNTIzOTNkNTE4M2EzNjY0MDE1YzBiMmM2YzEwMTJlYTFiNTI1ZWQ5NTIwNzMzMTFjYTE4MGEwZTYifX19",     sound: "grass" },\
 		{ name: "gray_concrete",       texture: "YzA2ZDdiZWZjODJmMjAxZjgzZTE5Mzc2N2U2M2Y4MTAzNzIxNWFmZDQ4M2EzOGQzNjk2NTk4MmNhNmQwIn19fQ==",     sound: "stone" },\
 		{ name: "green_concrete",      texture: "ZGZhYjdkYWViOGYzMzNjNzg4NmE3MGVmMzBjYWY0ZGVjNGE4Y2QxMDQ5M2YyMzgwMmYxNTE2YmRkMjNmY2QifX19",     sound: "stone" },\
 		{ name: "horn_coral",          texture: "MzQ5MWI2ZTZhZTk0NTFjNDdlMDliZjFmZjIzZDUwZmZmODdiYTU5MjdhNTFmNDZmZmVkZjkyNmM1Y2JkZTc3ZiJ9fX0=", sound: "coral_block" },\
