@@ -139,8 +139,10 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "blue_terracotta",              texture: "N2MxMTY2OTQ3MzFmYmQyNzJjMWZmYTQzNTJhNTM1OWI2YzNhNGNiNTg2NGE3NGE1ZGJlMGY2NjVmODM4NWMifX19",     sound: "stone" },\
 		{ name: "brown_glazed_terracotta",      texture: "YWQ0ZWFhNTQzMDI3MmM0OGUwODFkMDEwYjRmNDRhYjZmNGFlODQxZTM4OTY3YmE2MDY2MDFkYmMzNTAyNmVjYSJ9fX0=", sound: "stone" },\
 		{ name: "brown_terracotta",             texture: "NTRiOTMyZjExN2M4N2UxMTE4OWYxYzRjNDBjZmQ5MmJlOTExOWIxMTM3Y2Q2MTBjNjhlZGQ0MWFjNThmMTQifX19",     sound: "stone" },\
+		{ name: "copper_bulb",                  texture: "N2E5YTAyMzkyMTNmZmRjZjJjOTAzNGZiM2I2OWQxYjgwODUwM2NkMzk5Y2I2YThmN2QzZWMxOTQ5YWQwNDFmNyJ9fX0=", sound: "copper_bulb" },\
 		{ name: "cyan_glazed_terracotta",       texture: "MTdjNjdhZjgxMzdmZmRjZjg3MzU4ZjdhYjZkYTZkMGVhOThhMDk2MDk5NWMwMmU0ZTk4MTgwMTYzNDhlMWY4MSJ9fX0=", sound: "stone" },\
 		{ name: "cyan_terracotta",              texture: "NDQ2MzgxMWZkMGM0OGZjZDczYWJjYjdiYmU1YWE1ZWM2YmMyODA5ZmZjNTU3N2QzZjQ1NTlkZjMwNzY1ZiJ9fX0=",     sound: "stone" },\
+		{ name: "exposed_copper_bulb",          texture: "OTc0M2Y4ZjRiNDhkYjc3NzAxZDNjNGU5ZWYxNjEyZGFmYzljMDdmOGMzZWU5NWNkNmI1ZmQwYzJiNTJjYjU5MiJ9fX0=", sound: "copper_bulb" },\
 		{ name: "gray_glazed_terracotta",       texture: "Nzc3Mjk1NjJjNzQxZTliNzFhZWViZGIzNjQ1NzJmMDk5YzczYzAyNTZkN2Q4Yzg2MzMxZDc0MTdhODAzYzczNCJ9fX0=", sound: "stone" },\
 		{ name: "gray_terracotta",              texture: "OWVmYTdiNWU1ZTYzZDQ2ZDE0NjE1YzYxYmVkMTU0MjdkOTBiMjYxYzdjYTVlODE1OWM0NjZmMDk1NjFkYSJ9fX0=",     sound: "stone" },\
 		{ name: "green_glazed_terracotta",      texture: "NmNlODA3ZjBhNmY0OTljZTljY2M2NTAxMGZhYTU0ZWQ0ZTBmZmE2N2NmYjg0OGNkYTE1OWQzZGNhMGEyZGNhNSJ9fX0=", sound: "stone" },\
@@ -155,6 +157,7 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "magenta_terracotta",           texture: "MzQ0MTUyOGQyODhiMmI3OTczNmNiMjI0ODg3OGZiOTFlZmI0NDYyZDQzYmViZDcxMWY3MzI2YWZiYmY4NSJ9fX0=",     sound: "stone" },\
 		{ name: "orange_glazed_terracotta",     texture: "NGFlYjA0ZGU4MTljMTc3NjY4YzUxMzkyNjQzN2QwZWNjMTY4NGUwMjRkMWQ4NjdhZjQ1OTAxY2I0NjFiYjQ3NSJ9fX0=", sound: "stone" },\
 		{ name: "orange_terracotta",            texture: "NzMxNmMxNmIxYWM0NzBkMmMxMTQ0MzRmZjg3MzBmMTgxNTcwOTM4M2RiNmYzY2Y3MjBjMzliNmRjZTIxMTYifX19",     sound: "stone" },\
+		{ name: "oxidized_copper_bulb",         texture: "ZTBkYjE1ZGQ3ZmRhMTJiYTIyZjVmYTllNzMxYTZiOTFmYjk1MTNlMmI0NzAyMmE2MDA4YThmOGVjOGM3N2NmYSJ9fX0=", sound: "copper_bulb" },\
 		{ name: "pink_glazed_terracotta",       texture: "MWMxMjBhYzJmZTJiZDdjZGMyZTg2YTUzNDA4NDQ5ZTM4OTkxNTk5NWQ0OTE3MDEzMWE5YzkyMGRlYjA1OTkyZSJ9fX0=", sound: "stone" },\
 		{ name: "pink_terracotta",              texture: "Zjc1ZGI4MWUxNTkyZjMyZDc3MWRkNWRiYzZjM2E1MWU3YTBkNjZiMjJkZmUyOTZiOTY4Njg1MDVjZWVjIn19fQ==",     sound: "stone" },\
 		{ name: "purple_glazed_terracotta",     texture: "NmI3NWU4N2Q1MGNiODk2NmEzYTU2ZjczZDBhMTY2NDI5NDhmZjdkMTQ3OWI3ZDU5MDU0MTU0YmY2YmUwM2NkNCJ9fX0=", sound: "stone" },\
@@ -163,6 +166,7 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "red_terracotta",               texture: "OWU0MmY2ODJlNDMwYjU1YjYxMjA0YTZmOGI3NmQ1MjI3ZDI3OGVkOWVjNGQ5OGJkYTRhN2E0ODMwYTRiNiJ9fX0=",     sound: "stone" },\
 		{ name: "stripped_acacia_log",          texture: "MmI0OGQ5MjM3NTcyNzdhMTIzY2M0OTI3NWI4ODVhNTI4YmQzN2Q2ZjczNGFlZGM5YWViMDYzNzlkNGIwODZjZiJ9fX0=", sound: "wood" },\
 		{ name: "terracotta",                   texture: "ODJkNWZlZmUyMGRhZjMxYzIzOGVlMjI3ZGQxNDE4MjdhZGE1ZWY4NDgyZDhkMzU3YmJlNWE3Y2Y0MGFmODUifX19",     sound: "stone" },\
+		{ name: "weathered_copper_bulb",        texture: "NTIxNmY4MTBjNzNmMTMxZjAyNzQ3ZjU1NmYwZDRjMGE2ZDc4YTY2N2Q4NzdhNWQ3YzE2NzBmMjQxODNlOWZlOCJ9fX0=", sound: "copper_bulb" },\
 		{ name: "white_glazed_terracotta",      texture: "ZDJkODk1Nzg5ZjM4OTQ3ODhhYWRmNjMxZDg4MDRiODRmOWUzZDdkMmI4N2YwNDhlOTM4ODhiNDhlNmVhMGM4YiJ9fX0=", sound: "stone" },\
 		{ name: "white_terracotta",             texture: "NzE1OTU5NDM4OGJmMDEzYTRlM2U2ODY5ZmFhYmNiOTVkMzFkZDNmNGEyNThhNTM1ZTdjYmQ5MmM5OTg2YjcifX19",     sound: "stone" },\
 		{ name: "yellow_glazed_terracotta",     texture: "ODc4NzI4OTEyNDE0ODUzYTU2M2M5NWNkZjExOWFjNmIyZDQ4NmUzNzg0ZWNlNmJiMTc0NWZhNGI3ZDZjNDAwMiJ9fX0=", sound: "stone" },\
@@ -214,6 +218,8 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "bricks",                texture: "NGQ2YWJjY2RmZGI1MjMxZjc0NzEwZDc3OGMyMDg0ZjRjOGU0Y2Q2OTEzYTcwZThhNzIxM2FkYjYzOTE5MjUyNyJ9fX0=", sound: "stone" },\
 		{ name: "chiseled_deepslate",    texture: "NTM1MWRjMzJmZTBhNTI0ZGU2NjY5NmExYjI4Yzg5YjU5Yzc2YTdlZmRhNjljMmNhMWY4ODdmYWEzOGNhOWZiMyJ9fX0=", sound: "deepslate_bricks" },\
 		{ name: "chiseled_stone_bricks", texture: "MmYyZWI4MjQ5ZTY3MTA0OGRmOTljMDM2ODExYjEyNjE1ZmNjYWVlNTZmNjY3YTUwMmFkYjQwN2NmOGZlMjYxYiJ9fX0=", sound: "stone" },\
+		{ name: "chiseled_tuff",         texture: "MzM2MGJlMGNlMjUzYjljODQxNDU3NThlMWI2MWRlODZkYzQ3ZjQ4NmIzYjc3OTNjNGFlNDU0ZWZlM2NkYWMyMiJ9fX0=", sound: "tuff" },\
+		{ name: "chiseled_tuff_bricks",  texture: "MWJmNGRhNzY1M2U0ZmRlOTUxZTk1OGI4NDY0ZTM2YjczODM0M2JlOWYwMDQxNmYzMWVlMTEzZWFiZGZjMTM4NSJ9fX0=", sound: "polished_tuff" },\
 		{ name: "clay",                  texture: "Njc4MjY4MjllYWI1YWQ2MmYwYzExZDlmYWFmZGM5OTU0MzY0ODcxMTYwZGQ4MzllMWFiNWEzYjIxM2EzMyJ9fX0=",     sound: "gravel" },\
 		{ name: "cobbled_deepslate",     texture: "YWU0ZTFiYmRkNmUyNTc0YTIxNGNkNjE1YmUwNDE0NmUyODc2YzYzODI1YTY3YjlhMGU4MDcxODFjM2U1Y2JhYiJ9fX0=", sound: "deepslate" },\
 		{ name: "cobblestone",           texture: "MzNkNTFmNGQwNjA5OGJiMWY0Y2VmZjYxOWM2ZGRjYTk3NmZjNzBlOWY4ODcxZWJlZTRlZWY2NTgwY2Y3NmIwZiJ9fX0=", sound: "stone" },\
@@ -235,6 +241,7 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "polished_deepslate",    texture: "YzU5ODBiNTM0N2JiZDQ3NTQ3NmVlYWRkZWM0YmI4YjFkODc1OGY1ZTdhMWMyZDhiYWNhODhmMjY0NzI3YmNlOCJ9fX0=", sound: "deepslate" },\
 		{ name: "polished_diorite",      texture: "MzFhMjgxZjQ5NDUyODZjMzFmYTA3NzEyMWY5YjMyYzU4OGZiOTQwNjRkZTdmOTA4Y2YwZTk2NzdjZGRhOGIxIn19fQ==", sound: "stone" },\
 		{ name: "polished_granite",      texture: "OWFlNGNmMjJmNDViYjc3YWVmYTVhZmExZjg2NGRkM2M1ZjlkM2U5MmY0M2IzNTg4ZmQxNjJiMmFhOGMifX19",         sound: "stone" },\
+		{ name: "polished_tuff",         texture: "MjIzM2ExNzQ4OTllYjRjNDVjZDcyNjdmMGE5NWM0Yzk2MDI0N2QyODM0MzI1ODY3MzJhMzkzNGRmZDNjYjVjYyJ9fX0=", sound: "tuff" },\
 		{ name: "quartz_block",          texture: "ZTVlMmIyZWQyOThiNTNjYzg0NzgzY2Q3ODVlYzU3ZGE0OWNlYWFiZGNmZjMxYjI1ZmU1MjU2YjM0MjliNDEyIn19fQ==", sound: "stone" },\
 		{ name: "reinforced_deepslate",  texture: "NjlhODczZjI0OGMzOTExMjIxODg3OWNjOWMwMzM0N2VkMTZlN2Y2MDIzOTBhYzdhNjgwNmY4ZTg0OTI3OTRkNSJ9fX0=", sound: "deepslate" },\
 		{ name: "sculk",                 texture: "ZDY3YjU1YzdmZWExMjVjZjkyMzJlODk1ZDk2YzIxMzIwMTE4ZmNmOGNkMjMzNzRiZmY2NmY3YWIwYzk3ZDljYSJ9fX0=", sound: "sculk" },\
@@ -246,43 +253,48 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "stone_bricks",          texture: "ODNmYTBmYzA5OTZjZjc3MmQxZGJjMDUyYWEyNWIxMWRhYmFlOTc3ODIwYWY2NjNlZjAyMmQzY2UxZGI2MTEyMiJ9fX0=", sound: "stone" },\
 		{ name: "stripped_mangrove_log", texture: "OTk5MTE5ZTFkYmNjNGFlM2ZkMzE1ODk4ZjViZTc0MTRjMDUwYTFkNGZkMTM2ZTVjYTEyODQ1YjQxM2E0Njk4NCJ9fX0=", sound: "wood" },\
 		{ name: "tuff",                  texture: "ZmY5YmY1MzgzZmNlNTQzZTRhYTg4MzVhZjhlY2FlZDY3MDI5ZmQwYWFiYjAzYWMwZmY1YTJlZGVjZWUyY2U0ZCJ9fX0=", sound: "tuff" },\
+		{ name: "tuff_bricks",           texture: "YjY2NDgxMTlhMmNjMmFmNzVmYjRiNjNkMTZlODUwYjE1NGI2Mjk0MjlkMTIxMTNiNTU5YmNhY2M3YzJjZDMwZiJ9fX0=", sound: "polished_tuff" },\
 		{ name: "verdant_froglight",     texture: "ZjI0YzdlNDMyYzk2YjQ4YzBiZWI3YjNiMGIxNTU5ZmMxYjdmOWUyZWJhNzg2OWExZmJlOGYyMjY5NjQ3YTY5NSJ9fX0=", sound: "froglight" }\
 	],\
 	"minecraft:taiga": [\
-		{ name: "black_concrete",      texture: "NGZjMjM3MmI0NTc1NDJjNjU0ODNhZmExNDQyZTFjMzNhNWZmNzU4ZDM2MmVjZWM0MzQ4Nzk1MTcyODI0ZDg2OSJ9fX0=", sound: "stone" },\
-		{ name: "blue_concrete",       texture: "NTdjN2EyOTcxMDNkYjA4NGFmNjI3M2I4Nzk4MDVhZmM4NTc3Y2M4MmM3NTJhYzI2NmNmOGQ3YTZlZWE2MCJ9fX0=",     sound: "stone" },\
-		{ name: "brain_coral",         texture: "OTU3ZGQ0M2U4ZjFjZDEzNzI2YzBmOTlhYzQwNDcxNTA0N2QxMmViNDJhMjhmZmM2YWU5YmZiM2I3MGQ3NjQwYSJ9fX0=", sound: "coral_block" },\
-		{ name: "brown_concrete",      texture: "NjUzODEyMGY2MThmMmNjZDNiYmRjMThjZDU3ODJlNjM4MmFlOWVlNzJkMDVmNWY4NjI3NmFkYTU0ZWY3ZWQifX19",     sound: "stone" },\
-		{ name: "bubble_coral",        texture: "MTNmMTgwNWVkY2QzMmI5N2FiMmYxOWEwM2JhYWIxZjhkNGRjNGRiOGVjN2EwMDRiMTRlYjY2NmQwOWZiODdmMiJ9fX0=", sound: "coral_block" },\
-		{ name: "cyan_concrete",       texture: "ZjMzYjUxZmVmMWQ3ZmRmMTkyNzRiYjc2ZmNlZGVjZWM3YTc3ZDAxMGNiMzRmZTAyOWZiNzk0Y2M1OWFiYSJ9fX0=",     sound: "stone" },\
-		{ name: "dark_prismarine",     texture: "ZmQ5MTg1OTg5ODk1NDk1OTQ0NDZlODNmMzM4NzM4OTExNzhkYTlkYjQyZjkxMmU1MjcyZTFmYjI0MDMxMmEifX19",     sound: "stone" },\
-		{ name: "dirt",                texture: "MWFiNDNiOGMzZDM0ZjEyNWU1YTNmOGI5MmNkNDNkZmQxNGM2MjQwMmMzMzI5ODQ2MWQ0ZDRkN2NlMmQzYWVhIn19fQ==", sound: "gravel" },\
-		{ name: "dirt_path",           texture: "MzVhOWNmZGI3OGFjMWJlYjc4MjNiY2M4N2I3ZTNhZjgyZGFlZTEwYTU3ODM1ZGM0Y2I2MzJiZjFjZWUyMTU4MCJ9fX0=", sound: "grass" },\
-		{ name: "fire_coral",          texture: "OWZlOGRlZDNjNzRlYWNkNzg0MTJhOTAzYjkwNGY1NTc3ODUwZDFlMjBkMzQ4NzhmZDc3NTk3YWQxNjMzYmY3NCJ9fX0=", sound: "coral_block" },\
-		{ name: "grass_block",         texture: "ZWQzMzlkNTIzOTNkNTE4M2EzNjY0MDE1YzBiMmM2YzEwMTJlYTFiNTI1ZWQ5NTIwNzMzMTFjYTE4MGEwZTYifX19",     sound: "grass" },\
-		{ name: "gray_concrete",       texture: "YzA2ZDdiZWZjODJmMjAxZjgzZTE5Mzc2N2U2M2Y4MTAzNzIxNWFmZDQ4M2EzOGQzNjk2NTk4MmNhNmQwIn19fQ==",     sound: "stone" },\
-		{ name: "green_concrete",      texture: "ZGZhYjdkYWViOGYzMzNjNzg4NmE3MGVmMzBjYWY0ZGVjNGE4Y2QxMDQ5M2YyMzgwMmYxNTE2YmRkMjNmY2QifX19",     sound: "stone" },\
-		{ name: "horn_coral",          texture: "MzQ5MWI2ZTZhZTk0NTFjNDdlMDliZjFmZjIzZDUwZmZmODdiYTU5MjdhNTFmNDZmZmVkZjkyNmM1Y2JkZTc3ZiJ9fX0=", sound: "coral_block" },\
-		{ name: "light_blue_concrete", texture: "ZjQ3N2Y0NDM4OTM2MmM0Yzc2NGM4NDdhOTczOWJjNzhjMzI0NjdlYWI0ZTM4MzBhZTRjOGJlYWMzNDQyZWY5In19fQ==", sound: "stone" },\
-		{ name: "light_gray_concrete", texture: "NmJhMGM0YTBmZGNlOTIzYTkwNDgzMjhkNjY0MTQ3YzViOTI0NDkxZjRlZTVmZWE3MWYzZTllYzMxNCJ9fX0=",         sound: "stone" },\
-		{ name: "lime_concrete",       texture: "NGI1OTljNjE4ZTkxNGMyNWEzN2Q2OWY1NDFhMjJiZWJiZjc1MTYxNTI2Mzc1NmYyNTYxZmFiNGNmYTM5ZSJ9fX0=",     sound: "stone" },\
-		{ name: "magenta_concrete",    texture: "NjVlZjJkODdmN2MxZGVmNzk1MjNlOTU2NzY3YjgyODRjYTM4OWIyNDI5OWY1ZTQ2NWQ0NTc5ODlkNjJkZjgifX19",     sound: "stone" },\
-		{ name: "mycelium",            texture: "N2ViNGM0MWY0ODFlODE2Y2Y0YjUwN2IwYTE3NTk1ZjJiYTFmMjQ2NjRkYzQzMmJlMzQ3ZDRlN2E0ZWIzIn19fQ==",     sound: "grass" },\
-		{ name: "orange_concrete",     texture: "NjNmMTNlMjNlYzIzNDY3YWM1ZTZmNjVhODNmMjY4NmViZWNkOTk4NmRmNWY4Y2JjZDZmYWZjNDJlNjYyYjM4In19fQ==", sound: "stone" },\
-		{ name: "pink_concrete",       texture: "MjI3NDlkMzdjM2Y5OGQ0NTdiZjU0MDIyYThiNjEzYTQzNTNlZDhkZDJlMTQ5NDI2ZmM0MmRiM2I3ZCJ9fX0=",         sound: "stone" },\
-		{ name: "podzol",              texture: "YTQxOTVmOWE0MzljNmQwZmZkMTk2MTY1N2Y2ZjBhYThlM2EyZjhhMjQ5M2FmYTY2MmFiNWU0MTkzZTAifX19",         sound: "gravel" },\
-		{ name: "prismarine",          texture: "OTdlNTYxNDA2ODZlNDc2YWVmNTUyMGFjYmFiYzIzOTUzNWZmOTdlMjRiMTRkODdmNDk4MmYxMzY3NWMifX19",         sound: "stone" },\
-		{ name: "prismarine_bricks",   texture: "MzdjYmEyMzNmZmM0NTdiMzMwNTIyOGIyNWYzNWMwMjMzNTYxMWM5ZWZiNzY2OThiNWU5NGMwZDU0MWI1ZjQifX19",     sound: "stone" },\
-		{ name: "purple_concrete",     texture: "ZjBjMDVkNTYwZDhlMTNmMGNiMjVjMTVjODMxYmM1OTU0NTBjNWU1NGNlMzVmYTU0ZTE3ZTA0OTUyNjdjIn19fQ==",     sound: "stone" },\
-		{ name: "red_concrete",        texture: "NjE4NTZjN2IzNzhkMzUwMjYyMTQzODQzZDFmOWZiYjIxOTExYTcxOTgzYmE3YjM5YTRkNGJhNWI2NmJlZGM2In19fQ==", sound: "stone" },\
-		{ name: "rooted_dirt",         texture: "NzYwODk1ZjIzYTYxZGNmYWQzMzliOTJmMmQxNzI5ZDEzNTI4YTg2YjJjYTUyNjdjYTlkZmRmYWU4ZWRkZmZjZCJ9fX0=", sound: "rooted_dirt" },\
-		{ name: "sea_lantern",         texture: "ODI0YzZmZjE3MTRlYjJjM2I4NDRkNDZkMmU1ZWEyZjI2ZDI3M2EzM2VhYWE3NDRhYmY2NDViMDYwYjQ3ZDcifX19",     sound: "glass" },\
-		{ name: "sponge",              texture: "MTJmMDk2ZWVmODdkOWYyMGNjYWFiYTJhMDJlZWQ2ZjQzZTY0MzJhNjkyOGZlMTY0NjdjYjRkZWI1ZTc0MTE4YyJ9fX0=", sound: "grass" },\
-		{ name: "spruce_log",          texture: "OWY0YWYyODk4MjVlMTI3ZGFjMzIyMDhiMWUwMzg5YTkyN2VmNDA1NTk3YjZjOWE2NGNlZjAzZjIxZDkyNzNiNSJ9fX0=", sound: "wood" },\
-		{ name: "spruce_planks",       texture: "MTBlYjE5NjhmZjJkYTZiY2E2OGY1OWI2MTExNzEzZTA4ZDIyNDk5MjI5ZTEwODY0NDljYmE1MGY3ZGU2NGFlIn19fQ==", sound: "wood" },\
-		{ name: "stripped_spruce_log", texture: "MmM1NDY0MjViYTA5ZGE5YjQ3OGIzYWJlOWYzZDk5ZTAyNWNmZWViYTZhNTBjZjYyN2JkNTcxYzYzZDBhOWFhZSJ9fX0=", sound: "wood" },\
-		{ name: "tube_coral",          texture: "MzlmYzNjZjU1MDhkNDBjMTQ2OTlkNWJmN2YyNTI3NTllMTk1NmFmOWE2NmQxNWE2YzM4NTQzNzhjNjFmNmQ5YSJ9fX0=", sound: "coral_block" },\
-		{ name: "white_concrete",      texture: "ZDA5MjVjNDhiMDU2NjI4NDhlYzlmMDY4NWY4NThkODg5ZDNkYTExYjA3MTc4OGVhYTM2Y2NkOGYxZjMxZGUifX19",     sound: "stone" },\
-		{ name: "yellow_concrete",     texture: "ZmNhNWJmZjMyNWVkNzFkOTdhMmRkZmM4M2FjZjA1ZmU3ZmQ5Y2I3Y2JkYjE1ZWJiNGYwNTYyMTkwN2U5ZjJiIn19fQ==", sound: "stone" }\
+		{ name: "black_concrete",            texture: "NGZjMjM3MmI0NTc1NDJjNjU0ODNhZmExNDQyZTFjMzNhNWZmNzU4ZDM2MmVjZWM0MzQ4Nzk1MTcyODI0ZDg2OSJ9fX0=", sound: "stone" },\
+		{ name: "blue_concrete",             texture: "NTdjN2EyOTcxMDNkYjA4NGFmNjI3M2I4Nzk4MDVhZmM4NTc3Y2M4MmM3NTJhYzI2NmNmOGQ3YTZlZWE2MCJ9fX0=",     sound: "stone" },\
+		{ name: "brain_coral",               texture: "OTU3ZGQ0M2U4ZjFjZDEzNzI2YzBmOTlhYzQwNDcxNTA0N2QxMmViNDJhMjhmZmM2YWU5YmZiM2I3MGQ3NjQwYSJ9fX0=", sound: "coral_block" },\
+		{ name: "brown_concrete",            texture: "NjUzODEyMGY2MThmMmNjZDNiYmRjMThjZDU3ODJlNjM4MmFlOWVlNzJkMDVmNWY4NjI3NmFkYTU0ZWY3ZWQifX19",     sound: "stone" },\
+		{ name: "bubble_coral",              texture: "MTNmMTgwNWVkY2QzMmI5N2FiMmYxOWEwM2JhYWIxZjhkNGRjNGRiOGVjN2EwMDRiMTRlYjY2NmQwOWZiODdmMiJ9fX0=", sound: "coral_block" },\
+		{ name: "chiseled_copper",           texture: "MmVkZDI0ODI1YzIxNzMwM2YyNmFmNTUyNjU3MGEyMTRhZWMyOWI5Mjk3YTY4NzcxNTFiYTUwZmNlZGZmN2ZmMSJ9fX0=", sound: "copper" },\
+		{ name: "cyan_concrete",             texture: "ZjMzYjUxZmVmMWQ3ZmRmMTkyNzRiYjc2ZmNlZGVjZWM3YTc3ZDAxMGNiMzRmZTAyOWZiNzk0Y2M1OWFiYSJ9fX0=",     sound: "stone" },\
+		{ name: "dark_prismarine",           texture: "ZmQ5MTg1OTg5ODk1NDk1OTQ0NDZlODNmMzM4NzM4OTExNzhkYTlkYjQyZjkxMmU1MjcyZTFmYjI0MDMxMmEifX19",     sound: "stone" },\
+		{ name: "dirt",                      texture: "MWFiNDNiOGMzZDM0ZjEyNWU1YTNmOGI5MmNkNDNkZmQxNGM2MjQwMmMzMzI5ODQ2MWQ0ZDRkN2NlMmQzYWVhIn19fQ==", sound: "gravel" },\
+		{ name: "dirt_path",                 texture: "MzVhOWNmZGI3OGFjMWJlYjc4MjNiY2M4N2I3ZTNhZjgyZGFlZTEwYTU3ODM1ZGM0Y2I2MzJiZjFjZWUyMTU4MCJ9fX0=", sound: "grass" },\
+		{ name: "exposed_chiseled_copper",   texture: "NGYwNTY4YzQ4Mzg4NGNjZTM2MGY1YzA2YjYxY2JlOWMxNjdiM2RjYzBlNjMxNTY2YzA4MDk4MDRjMzIxNmMzNSJ9fX0=", sound: "copper" },\
+		{ name: "fire_coral",                texture: "OWZlOGRlZDNjNzRlYWNkNzg0MTJhOTAzYjkwNGY1NTc3ODUwZDFlMjBkMzQ4NzhmZDc3NTk3YWQxNjMzYmY3NCJ9fX0=", sound: "coral_block" },\
+		{ name: "grass_block",               texture: "ZWQzMzlkNTIzOTNkNTE4M2EzNjY0MDE1YzBiMmM2YzEwMTJlYTFiNTI1ZWQ5NTIwNzMzMTFjYTE4MGEwZTYifX19",     sound: "grass" },\
+		{ name: "gray_concrete",             texture: "YzA2ZDdiZWZjODJmMjAxZjgzZTE5Mzc2N2U2M2Y4MTAzNzIxNWFmZDQ4M2EzOGQzNjk2NTk4MmNhNmQwIn19fQ==",     sound: "stone" },\
+		{ name: "green_concrete",            texture: "ZGZhYjdkYWViOGYzMzNjNzg4NmE3MGVmMzBjYWY0ZGVjNGE4Y2QxMDQ5M2YyMzgwMmYxNTE2YmRkMjNmY2QifX19",     sound: "stone" },\
+		{ name: "horn_coral",                texture: "MzQ5MWI2ZTZhZTk0NTFjNDdlMDliZjFmZjIzZDUwZmZmODdiYTU5MjdhNTFmNDZmZmVkZjkyNmM1Y2JkZTc3ZiJ9fX0=", sound: "coral_block" },\
+		{ name: "light_blue_concrete",       texture: "ZjQ3N2Y0NDM4OTM2MmM0Yzc2NGM4NDdhOTczOWJjNzhjMzI0NjdlYWI0ZTM4MzBhZTRjOGJlYWMzNDQyZWY5In19fQ==", sound: "stone" },\
+		{ name: "light_gray_concrete",       texture: "NmJhMGM0YTBmZGNlOTIzYTkwNDgzMjhkNjY0MTQ3YzViOTI0NDkxZjRlZTVmZWE3MWYzZTllYzMxNCJ9fX0=",         sound: "stone" },\
+		{ name: "lime_concrete",             texture: "NGI1OTljNjE4ZTkxNGMyNWEzN2Q2OWY1NDFhMjJiZWJiZjc1MTYxNTI2Mzc1NmYyNTYxZmFiNGNmYTM5ZSJ9fX0=",     sound: "stone" },\
+		{ name: "magenta_concrete",          texture: "NjVlZjJkODdmN2MxZGVmNzk1MjNlOTU2NzY3YjgyODRjYTM4OWIyNDI5OWY1ZTQ2NWQ0NTc5ODlkNjJkZjgifX19",     sound: "stone" },\
+		{ name: "mycelium",                  texture: "N2ViNGM0MWY0ODFlODE2Y2Y0YjUwN2IwYTE3NTk1ZjJiYTFmMjQ2NjRkYzQzMmJlMzQ3ZDRlN2E0ZWIzIn19fQ==",     sound: "grass" },\
+		{ name: "orange_concrete",           texture: "NjNmMTNlMjNlYzIzNDY3YWM1ZTZmNjVhODNmMjY4NmViZWNkOTk4NmRmNWY4Y2JjZDZmYWZjNDJlNjYyYjM4In19fQ==", sound: "stone" },\
+		{ name: "oxidized_chiseled_copper",  texture: "ZTg5YmM5OWU5N2MzNjE3YzQ0ZTU5MmJhZDY0MTg2MGJmNmYzNDBjZGVhYzFiYWU1Njc1YmEyMGI3YmY2N2I4ZSJ9fX0=", sound: "copper" },\
+		{ name: "pink_concrete",             texture: "MjI3NDlkMzdjM2Y5OGQ0NTdiZjU0MDIyYThiNjEzYTQzNTNlZDhkZDJlMTQ5NDI2ZmM0MmRiM2I3ZCJ9fX0=",         sound: "stone" },\
+		{ name: "podzol",                    texture: "YTQxOTVmOWE0MzljNmQwZmZkMTk2MTY1N2Y2ZjBhYThlM2EyZjhhMjQ5M2FmYTY2MmFiNWU0MTkzZTAifX19",         sound: "gravel" },\
+		{ name: "prismarine",                texture: "OTdlNTYxNDA2ODZlNDc2YWVmNTUyMGFjYmFiYzIzOTUzNWZmOTdlMjRiMTRkODdmNDk4MmYxMzY3NWMifX19",         sound: "stone" },\
+		{ name: "prismarine_bricks",         texture: "MzdjYmEyMzNmZmM0NTdiMzMwNTIyOGIyNWYzNWMwMjMzNTYxMWM5ZWZiNzY2OThiNWU5NGMwZDU0MWI1ZjQifX19",     sound: "stone" },\
+		{ name: "purple_concrete",           texture: "ZjBjMDVkNTYwZDhlMTNmMGNiMjVjMTVjODMxYmM1OTU0NTBjNWU1NGNlMzVmYTU0ZTE3ZTA0OTUyNjdjIn19fQ==",     sound: "stone" },\
+		{ name: "red_concrete",              texture: "NjE4NTZjN2IzNzhkMzUwMjYyMTQzODQzZDFmOWZiYjIxOTExYTcxOTgzYmE3YjM5YTRkNGJhNWI2NmJlZGM2In19fQ==", sound: "stone" },\
+		{ name: "rooted_dirt",               texture: "NzYwODk1ZjIzYTYxZGNmYWQzMzliOTJmMmQxNzI5ZDEzNTI4YTg2YjJjYTUyNjdjYTlkZmRmYWU4ZWRkZmZjZCJ9fX0=", sound: "rooted_dirt" },\
+		{ name: "sea_lantern",               texture: "ODI0YzZmZjE3MTRlYjJjM2I4NDRkNDZkMmU1ZWEyZjI2ZDI3M2EzM2VhYWE3NDRhYmY2NDViMDYwYjQ3ZDcifX19",     sound: "glass" },\
+		{ name: "sponge",                    texture: "MTJmMDk2ZWVmODdkOWYyMGNjYWFiYTJhMDJlZWQ2ZjQzZTY0MzJhNjkyOGZlMTY0NjdjYjRkZWI1ZTc0MTE4YyJ9fX0=", sound: "grass" },\
+		{ name: "spruce_log",                texture: "OWY0YWYyODk4MjVlMTI3ZGFjMzIyMDhiMWUwMzg5YTkyN2VmNDA1NTk3YjZjOWE2NGNlZjAzZjIxZDkyNzNiNSJ9fX0=", sound: "wood" },\
+		{ name: "spruce_planks",             texture: "MTBlYjE5NjhmZjJkYTZiY2E2OGY1OWI2MTExNzEzZTA4ZDIyNDk5MjI5ZTEwODY0NDljYmE1MGY3ZGU2NGFlIn19fQ==", sound: "wood" },\
+		{ name: "stripped_spruce_log",       texture: "MmM1NDY0MjViYTA5ZGE5YjQ3OGIzYWJlOWYzZDk5ZTAyNWNmZWViYTZhNTBjZjYyN2JkNTcxYzYzZDBhOWFhZSJ9fX0=", sound: "wood" },\
+		{ name: "tube_coral",                texture: "MzlmYzNjZjU1MDhkNDBjMTQ2OTlkNWJmN2YyNTI3NTllMTk1NmFmOWE2NmQxNWE2YzM4NTQzNzhjNjFmNmQ5YSJ9fX0=", sound: "coral_block" },\
+		{ name: "weathered_chiseled_copper", texture: "MjJhZjk1OWExOWY3YTdiNjQ0NDA5OGNhMWUwYTM0MWMxMjBmMGQ5MGFjOWMyOWMzZGE5MzA2ZWQ2MWU3ZGFlMyJ9fX0=", sound: "copper" },\
+		{ name: "white_concrete",            texture: "ZDA5MjVjNDhiMDU2NjI4NDhlYzlmMDY4NWY4NThkODg5ZDNkYTExYjA3MTc4OGVhYTM2Y2NkOGYxZjMxZGUifX19",     sound: "stone" },\
+		{ name: "yellow_concrete",           texture: "ZmNhNWJmZjMyNWVkNzFkOTdhMmRkZmM4M2FjZjA1ZmU3ZmQ5Y2I3Y2JkYjE1ZWJiNGYwNTYyMTkwN2U5ZjJiIn19fQ==", sound: "stone" }\
 	]\
 }

@@ -1,5 +1,5 @@
 {
-"parent": "nitwit_trades:swamp/tuff",
+"parent": "nitwit_trades:swamp/chiseled_tuff",
 "display": {
 	"icon": { "id": "minecraft:amethyst_block" },
 	"title": { "translate": "block.minecraft.amethyst_block" },
