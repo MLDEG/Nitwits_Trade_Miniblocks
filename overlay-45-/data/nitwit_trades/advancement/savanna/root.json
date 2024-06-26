@@ -1,0 +1,462 @@
+{
+"parent": "nitwit_trades:root",
+"display": {
+	"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ5ZWU1ZDhiNThmZGRkMjdiYzY3OWMwNTQ4ZjU1YmFhODQ1ZjlmMWRmNWU4OGM3YzViZGE2ZWI5ZGYyYjM5OSJ9fX0=" }] } }
+	},
+	"title": [ { "translate": "biome.minecraft.savanna" }, "   " ],
+	"description": [
+		{ "translate": "biome.minecraft.savanna" },
+		", ",
+		{ "translate": "biome.minecraft.savanna_plateau" },
+		", ",
+		{ "translate": "biome.minecraft.windswept_savanna" }
+	],
+	"frame": "goal",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:acacia_log": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMxMDBkZDJlMWUyZGMyOTM4NjVmODc0N2M5MDRjNzM3YmFhYjIzNmU2ZTU0Y2NjMmQzYmVkNmQxZmE0MmQzYSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:acacia_planks": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI5OTY0ZGU4OGJjYWIzZjFiNzYzNTUyYjc5OTExZWYyNGU3NWIzMzUyZjY1ZGJkYThmNThmNjFkMWVhN2YifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:black_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ0YTMyMWM0YzNiYzdjYzM5MWQ0NWMyZDMwNGE0ZjUyNmJjYWU1YjIzNTY1YTA0MTM1Y2VmODFjZTUxMThjYyJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:black_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE3ZmY4YmFiYjkxYjRkYmFkNzUyNGU1OGVlZDRiMmY3MTU2NTc0NTk4OWFmOWEyY2NmY2YzMzI4ZjYxYmQyIn19fQ==" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:blue_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgxZTM3NjMyMjE4OGIxZTk4ODMwOWY5OWEwMTVkOTQ5YjY4ZmZlOWM5ZDczY2I5NzgxMzUzOGQwODY0ODk3ZSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:blue_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MxMTY2OTQ3MzFmYmQyNzJjMWZmYTQzNTJhNTM1OWI2YzNhNGNiNTg2NGE3NGE1ZGJlMGY2NjVmODM4NWMifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:brown_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0ZWFhNTQzMDI3MmM0OGUwODFkMDEwYjRmNDRhYjZmNGFlODQxZTM4OTY3YmE2MDY2MDFkYmMzNTAyNmVjYSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:brown_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiOTMyZjExN2M4N2UxMTE4OWYxYzRjNDBjZmQ5MmJlOTExOWIxMTM3Y2Q2MTBjNjhlZGQ0MWFjNThmMTQifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:copper_bulb": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E5YTAyMzkyMTNmZmRjZjJjOTAzNGZiM2I2OWQxYjgwODUwM2NkMzk5Y2I2YThmN2QzZWMxOTQ5YWQwNDFmNyJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:cyan_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdjNjdhZjgxMzdmZmRjZjg3MzU4ZjdhYjZkYTZkMGVhOThhMDk2MDk5NWMwMmU0ZTk4MTgwMTYzNDhlMWY4MSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:cyan_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ2MzgxMWZkMGM0OGZjZDczYWJjYjdiYmU1YWE1ZWM2YmMyODA5ZmZjNTU3N2QzZjQ1NTlkZjMwNzY1ZiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:exposed_copper_bulb": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc0M2Y4ZjRiNDhkYjc3NzAxZDNjNGU5ZWYxNjEyZGFmYzljMDdmOGMzZWU5NWNkNmI1ZmQwYzJiNTJjYjU5MiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:gray_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc3Mjk1NjJjNzQxZTliNzFhZWViZGIzNjQ1NzJmMDk5YzczYzAyNTZkN2Q4Yzg2MzMxZDc0MTdhODAzYzczNCJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:gray_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVmYTdiNWU1ZTYzZDQ2ZDE0NjE1YzYxYmVkMTU0MjdkOTBiMjYxYzdjYTVlODE1OWM0NjZmMDk1NjFkYSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:green_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlODA3ZjBhNmY0OTljZTljY2M2NTAxMGZhYTU0ZWQ0ZTBmZmE2N2NmYjg0OGNkYTE1OWQzZGNhMGEyZGNhNSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:green_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU1ZDUwMTljOGQ1NWJjYjlkYzM0OTRjY2MzNDE5NzU3Zjg5YzMzODRjZjNjOWFiZWMzZjE4ODMxZjM1YjAifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:light_blue_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFjODk1OTM1MTc0YWM1ZjY0ZWRhZDIxNWNlMGI2YjM4MDEzN2NjNGQxZjM5OWEzZGYxN2RjM2IyZGU0MGJkZSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:light_blue_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdiYzhmNWFjMmJmMzM2OTc0MWE5NjJkZTJhZGRiYWExN2QxNWNjNGRhZGIxOWFlZjZlOTQ0ODE3ZTZjMjQifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:light_gray_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRjMDRkNmViNWI2ODUyODQzNzBkMDMyY2RiNjljZjJkNGZkMWFlMDA0NTc0ZmI0NDIyZjJiNTU3N2RkMTkzMiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:light_gray_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNkZTk5YjcyNzI4ZWY4ODE2NDBmYTUwNjhkMTIyZTYxZGQ5Y2Y3MThkYmIzNzA5ZmM1YjMyNmYxYWY1ZCJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:lime_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UwYjk3Yzc4NWUzOTc2ZWZhNzhhY2M4MjhkYjY3ZTcxZGVhZDliNjY5NGZkZTYxM2QyZTJlN2NhZmJlMWQ1YiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:lime_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhMTE3ZTE2MWY3YTI5MWQwYTNhMTY4ZTc3YTIxYjA5ZDM5ZmZkZjU3NzNkMjJhYzAyZjVmYTY2MTFkYjY3In19fQ==" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:magenta_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U2MTdiZWQ4ZTk3ZDQwODc5OTNlYzBjODk4Zjg3NzJjNDUyYjk5ZDhiNGI5YTQ1ZTNlYzQzNDkzMDQwOWVlOSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:magenta_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ0MTUyOGQyODhiMmI3OTczNmNiMjI0ODg3OGZiOTFlZmI0NDYyZDQzYmViZDcxMWY3MzI2YWZiYmY4NSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:orange_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFlYjA0ZGU4MTljMTc3NjY4YzUxMzkyNjQzN2QwZWNjMTY4NGUwMjRkMWQ4NjdhZjQ1OTAxY2I0NjFiYjQ3NSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:orange_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMxNmMxNmIxYWM0NzBkMmMxMTQ0MzRmZjg3MzBmMTgxNTcwOTM4M2RiNmYzY2Y3MjBjMzliNmRjZTIxMTYifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:oxidized_copper_bulb": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBkYjE1ZGQ3ZmRhMTJiYTIyZjVmYTllNzMxYTZiOTFmYjk1MTNlMmI0NzAyMmE2MDA4YThmOGVjOGM3N2NmYSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:pink_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxMjBhYzJmZTJiZDdjZGMyZTg2YTUzNDA4NDQ5ZTM4OTkxNTk5NWQ0OTE3MDEzMWE5YzkyMGRlYjA1OTkyZSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:pink_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1ZGI4MWUxNTkyZjMyZDc3MWRkNWRiYzZjM2E1MWU3YTBkNjZiMjJkZmUyOTZiOTY4Njg1MDVjZWVjIn19fQ==" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:purple_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI3NWU4N2Q1MGNiODk2NmEzYTU2ZjczZDBhMTY2NDI5NDhmZjdkMTQ3OWI3ZDU5MDU0MTU0YmY2YmUwM2NkNCJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:purple_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZmNTRmODI4MzZhNTU5MjRlZTg1ZGVjNTZiYmJkOGNhMTQ2MzNkYWE5YmZlMzU2NTU5MmVkZjM5YTZkZSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:red_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQyMjI1YmZkNjRlN2Y3YmVjOTZiZDgzMGU1YzgxYmMzMGZkZTk2YmJkYTE2YTBjNWJjZTViNWVjMThiNmUxMiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:red_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU0MmY2ODJlNDMwYjU1YjYxMjA0YTZmOGI3NmQ1MjI3ZDI3OGVkOWVjNGQ5OGJkYTRhN2E0ODMwYTRiNiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:stripped_acacia_log": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI0OGQ5MjM3NTcyNzdhMTIzY2M0OTI3NWI4ODVhNTI4YmQzN2Q2ZjczNGFlZGM5YWViMDYzNzlkNGIwODZjZiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkNWZlZmUyMGRhZjMxYzIzOGVlMjI3ZGQxNDE4MjdhZGE1ZWY4NDgyZDhkMzU3YmJlNWE3Y2Y0MGFmODUifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:white_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkODk1Nzg5ZjM4OTQ3ODhhYWRmNjMxZDg4MDRiODRmOWUzZDdkMmI4N2YwNDhlOTM4ODhiNDhlNmVhMGM4YiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:white_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTU5NDM4OGJmMDEzYTRlM2U2ODY5ZmFhYmNiOTVkMzFkZDNmNGEyNThhNTM1ZTdjYmQ5MmM5OTg2YjcifX19" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:weathered_copper_bulb": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIxNmY4MTBjNzNmMTMxZjAyNzQ3ZjU1NmYwZDRjMGE2ZDc4YTY2N2Q4NzdhNWQ3YzE2NzBmMjQxODNlOWZlOCJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:yellow_glazed_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc4NzI4OTEyNDE0ODUzYTU2M2M5NWNkZjExOWFjNmIyZDQ4NmUzNzg0ZWNlNmJiMTc0NWZhNGI3ZDZjNDAwMiJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:yellow_terracotta": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM1MTdiYzNlYzMyODY5ZDkzOWM4OWQyOTYxZTMwYjcxNjFlYWNkOTI1NWJlYzMxM2JlMjM5NjAyMjFkNDFiNCJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

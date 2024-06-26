@@ -5,14 +5,15 @@
 	"supported_formats": { "min_inclusive": 16, "max_inclusive": 999999999 },
 	"description": "Nitwit have trades.",
 	"author": "MLDEG, AHL",
-	"last_update": "2024-05-15"
+	"last_update": "2024-06-26"
 	},
 "overlays":
 	{
 	"entries":
 		[
 		{ "formats": { "min_inclusive": 33, "max_inclusive": 999999999 }, "directory": "overlay-33-" },
-		{ "formats": { "min_inclusive": 42, "max_inclusive": 999999999 }, "directory": "overlay-42-" }
+		{ "formats": { "min_inclusive": 42, "max_inclusive": 999999999 }, "directory": "overlay-42-" },
+		{ "formats": { "min_inclusive": 45, "max_inclusive": 999999999 }, "directory": "overlay-45-" }
 		]
 	}
 }

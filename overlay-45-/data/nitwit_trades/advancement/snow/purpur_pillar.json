@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:snow/purpur_block",
+"display": {
+	"icon": { "id": "minecraft:purpur_pillar" },
+	"title": { "translate": "block.minecraft.purpur_pillar" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:purpur_pillar": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE4MmFmNmE2MTJkYTU3ZWMzYmRjZmVhZDhlMDIxODM5NWY2YmNmZjY5MzdmZDM2YjQwMDk0YjVmZGQzZGEwNSJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

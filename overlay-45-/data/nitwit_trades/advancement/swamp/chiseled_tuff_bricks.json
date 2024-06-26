@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:swamp/tuff_bricks",
+"display": {
+	"icon": { "id": "minecraft:chiseled_tuff_bricks" },
+	"title": { "translate": "block.minecraft.chiseled_tuff_bricks" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:chiseled_tuff_bricks": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJmNGRhNzY1M2U0ZmRlOTUxZTk1OGI4NDY0ZTM2YjczODM0M2JlOWYwMDQxNmYzMWVlMTEzZWFiZGZjMTM4NSJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

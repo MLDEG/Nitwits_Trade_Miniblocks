@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:taiga/exposed_chiseled_copper",
+"display": {
+	"icon": { "id": "minecraft:weathered_chiseled_copper" },
+	"title": { "translate": "block.minecraft.weathered_chiseled_copper" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:weathered_chiseled_copper": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJhZjk1OWExOWY3YTdiNjQ0NDA5OGNhMWUwYTM0MWMxMjBmMGQ5MGFjOWMyOWMzZGE5MzA2ZWQ2MWU3ZGFlMyJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}
