@@ -1,5 +1,5 @@
 {
-"parent": "nitwit_trades:jungle/bee_nest",
+"parent": "nitwit_trades:jungle/beehive",
 "display": {
 	"icon": { "id": "minecraft:crafting_table" },
 	"title": { "translate": "block.minecraft.crafting_table" },

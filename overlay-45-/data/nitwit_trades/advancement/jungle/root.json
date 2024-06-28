@@ -84,6 +84,17 @@
 			]
 		}
 	},
+	"nitwit_trades:beehive": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
 	"nitwit_trades:blast_furnace": {
 		"trigger": "minecraft:inventory_changed",
 		"conditions": {
@@ -146,6 +157,17 @@
 				{
 				"items": "minecraft:player_head",
 				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNjYjhmNjFlN2Y2YmY5NTdhMjEzNGU5NmZhZWIwZmM5MjQxMzdkNGJmZjg4ZDk1MThiMmJmNjYyNTg2YzkyZSJ9fX0=" }] } }
+				}
+			]
+		}
+	},
+	"nitwit_trades:crafter": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3YzdlOTZhODAyYzI3MDgwYzdmODA1MzgxNDM2OGVhOTRkZjg2NDQ1OTEyMGU1MTU1NzE4YjUwM2MzZWQ3In19fQ==" }] } }
 				}
 			]
 		}

@@ -1,5 +1,5 @@
 {
-"parent": "nitwit_trades:jungle/crafting_table",
+"parent": "nitwit_trades:jungle/crafter",
 "display": {
 	"icon": { "id": "minecraft:chest" },
 	"title": { "translate": "block.minecraft.chest" },

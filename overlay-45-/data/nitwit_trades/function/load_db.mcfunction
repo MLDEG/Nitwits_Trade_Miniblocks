@@ -43,8 +43,12 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "red_sandstone",          texture: "YWUxMmIzNDQ5YTczNjRkNGEwNDczMDZmZWI5YTU3YWI3Nzg3YTc3NjBhYjE2NjA3ZjkwMzk2YmQxMDdmZjU2ZiJ9fX0=", sound: "stone" },\
 		{ name: "redstone_block",         texture: "YmI3OGZhNWRlZmU3MmRlYmNkOWM3NmFiOWY0ZTExNDI1MDQ3OWJiOWI0NGY0Mjg4N2JiZjZmNzM4NjEyYiJ9fX0=",     sound: "metal" },\
 		{ name: "redstone_ore",           texture: "NjMyY2NmNzgxNDUzOWE2MWY4YmZjMTViY2YxMTFhMzlhZDhhZTE2M2MzNmU0NGI2Mzc5NDE1NTU2NDc1ZDcyYSJ9fX0=", sound: "stone" },\
+		{ name: "trial_spawner",          texture: "Y2ZlMmY1MTE2NzdkMzljNDNlYTM3NjUxMmI2OTIxMmU0NWU4MTBkYzljZjk2NmRiY2M4OTgwZDllMDE2NzY3NCJ9fX0=", sound: "trial_spawner" },\
 		{ name: "sand",                   texture: "NTMzOThhYjNjYjY5NmIzNDQzMGJlOTQ0YjE0YWZiZDIyN2ZkODdlOTkwMjZiY2ZjOGI3Mzg3YTg2MWJkZSJ9fX0=",     sound: "sand" },\
 		{ name: "sandstone",              texture: "NDhmODBlOWIyZDY1OTNhMzJkN2M0NGM4YmM4NjBmZWJhMzRiMzRmOGQ1NGQwY2RiNzIxMWUyM2U4ZGRjMzNhNCJ9fX0=", sound: "stone" },\
+		{ name: "spawner",                texture: "OTdiMjE4OTMwMGYzMzliYTA1MGUwMWFlMmE1NDBiN2U4OWVmODk2YTU1Yzc5MTZkY2M5ZTU4NTFhZjg2NDExZSJ9fX0=", sound: "metal" },\
+		{ name: "vault",                  texture: "YTBhZTI5NDU1NGI3NDJmZjk1MmY3ZTY2NTNmZjM3ZDQzZmQwYTM0OWI2ZjI0NGZiMjA1MWViNTYzYjEzYmRiOSJ9fX0=", sound: "vault" },\
+		{ name: "vault",                  texture: "MmE5Zjk2NzUzMTIyMDhkY2UzNWY0M2U3ZmQ3YzUxMTQyZjQzOTU4OTNhMmQzYTE2OTM5YTAxODI1ZGM3MDdhOSJ9fX0=", sound: "vault" },\
 		{ name: "weathered_copper",       texture: "ZGE1N2U0NmViMWVhZDkwNzFjZDhkNjEzYTgxY2Q1NWM1OTMxY2I2ZGJhZTRkZmJmMTQ1OGYyOGY5OWVlN2Y0NCJ9fX0=", sound: "copper" }\
 	],\
 	"minecraft:jungle": [\
@@ -54,12 +58,14 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "barrel",                texture: "NjdjMmRkNmEzMTRjZDJkNDY0MWZjYmFiMzI1Njc0MTM0MDEwMTA5MTNjNTQwOTc1NDk2NWRmZDc0MTU4ZjMzNyJ9fX0=", sound: "wood" },\
 		{ name: "beacon",                texture: "MzUyNzIzYWEwNjM3ZWE1MjA0NDQ3YmU1MzYxNTFmNTI5ZmU0OTA2ODI2ZDhjMDY2YzRkY2M1MDA3OWE2NDQ2NSJ9fX0=", sound: "stone" },\
 		{ name: "bee_nest",              texture: "ZTA0MGFiZTU4ZDhiZDczYWZmYzMwYTdkMDc1NDBhNjc0NWU5NmNjNGNjYWFiNWY3MTU0MGY0YzM2NmZkMDU1YiJ9fX0=", sound: "wood" },\
+		{ name: "beehive",               texture: "YjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=", sound: "wood" },\
 		{ name: "blast_furnace",         texture: "ZTgzMDZiZjhlZTQwMzZhNmZkYjQ4NDE2NzBiMzE3Mjg5NDg1MDMxYjU2NTQ1ZDNkMWE1YzBlNTc0ZWNmZDFkNCJ9fX0=", sound: "stone" },\
 		{ name: "bookshelf",             texture: "N2Y2YmY5NThhYmQ3ODI5NWVlZDZmZmMyOTNiMWFhNTk1MjZlODBmNTQ5NzY4MjllYTA2ODMzN2MyZjVlOCJ9fX0=",     sound: "wood" },\
 		{ name: "cartography_table",     texture: "ZDkwOTdjYTU5MzM0MDIwZTRjMTZkNWJhMzZjYjI0NTgwZWU2NmM5YzJmNDI1YTNiNTY1NGZkYzQ3YjhkYjZmNiJ9fX0=", sound: "wood" },\
 		{ name: "chest",                 texture: "ZDVjNmRjMmJiZjUxYzM2Y2ZjNzcxNDU4NWE2YTU2ODNlZjJiMTRkNDdkOGZmNzE0NjU0YTg5M2Y1ZGE2MjIifX19",     sound: "wood" },\
 		{ name: "command_block",         texture: "NWY0YzIxZDE3YWQ2MzYzODdlYTNjNzM2YmZmNmFkZTg5NzMxN2UxMzc0Y2Q1ZDliMWMxNWU2ZTg5NTM0MzIifX19",     sound: "metal" },\
 		{ name: "composter",             texture: "NTNjYjhmNjFlN2Y2YmY5NTdhMjEzNGU5NmZhZWIwZmM5MjQxMzdkNGJmZjg4ZDk1MThiMmJmNjYyNTg2YzkyZSJ9fX0=", sound: "wood" },\
+		{ name: "crafter",               texture: "ZjU3YzdlOTZhODAyYzI3MDgwYzdmODA1MzgxNDM2OGVhOTRkZjg2NDQ1OTEyMGU1MTU1NzE4YjUwM2MzZWQ3In19fQ==", sound: "stone" },\
 		{ name: "crafting_table",        texture: "Y2U3ZDhjMjQyZDJlNGY4MDI4ZjkzMGJlNzZmMzUwMTRiMjFiNTI1NTIwOGIxYzA0MTgxYjI1NzQxMzFiNzVhIn19fQ==", sound: "wood" },\
 		{ name: "dispenser",             texture: "M2MxMWEwZDkwYzM3ZWI2OTVjOGE1MjNkODYwMWFhMWM4NWZhZDA5YTRkMjIzMmQwNGVkMjNhYzkwZTQzMjVjMiJ9fX0=", sound: "stone" },\
 		{ name: "dried_kelp_block",      texture: "YjgwNWNhZjNkMDJlMzVlNGFhZGMxOWFmMTVlODI3OTAxNzdmMWNkN2I3OWY0ZjViODhkOTQzYWM2YmUyMDNhMSJ9fX0=", sound: "grass" },\
