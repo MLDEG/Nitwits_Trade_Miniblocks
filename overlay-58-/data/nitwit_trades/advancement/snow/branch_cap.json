@@ -1,0 +1,8 @@
+{
+    "parent": "nitwit_trades:snow/chiseled_resin_bricks",
+    "criteria": {
+        "nitwit_trades:snow_cap": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

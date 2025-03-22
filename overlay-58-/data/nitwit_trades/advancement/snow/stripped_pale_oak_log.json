@@ -1,0 +1,37 @@
+{
+    "parent": "nitwit_trades:snow/pale_oak_log",
+    "display": {
+        "icon": {
+            "id": "minecraft:stripped_pale_oak_log"
+        },
+        "title": {
+            "translate": "block.minecraft.stripped_pale_oak_log"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "criteria": {
+        "nitwit_trades:stripped_pal_oak_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:player_head",
+                        "components": {
+                            "minecraft:profile": {
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE0ODFkMGEyNDU4OTAzMDg0OTVhMDk0NjczZGNkN2E1NTIyNzFhNmY1NjViMmRjNjM0NjY5M2E4OTE5YTZiNyJ9fX0="
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
