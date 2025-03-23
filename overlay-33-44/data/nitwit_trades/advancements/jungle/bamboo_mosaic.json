@@ -1,0 +1,24 @@
+{
+"parent": "nitwit_trades:jungle/bamboo_planks",
+"display": {
+	"icon": { "id": "minecraft:bamboo_mosaic" },
+	"title": { "translate": "block.minecraft.bamboo_mosaic" },
+	"description": "",
+	"frame": "task",
+	"announce_to_chat": false,
+	"show_toast": true
+},
+"criteria": {
+	"nitwit_trades:bamboo_mosaic": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+				"items": "minecraft:player_head",
+				"components": { "minecraft:profile": { "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ0YWJmNWFjZGM3ZjA3OWViYjk0ODc3YmMyNmE2ZDhkMGMzZjc2MjA2NGFjM2Y3NGYzNDNlNzg2NjkyZTRlZiJ9fX0=" }] } }
+				}
+			]
+		}
+	}
+}
+}

@@ -188,6 +188,7 @@ data modify storage nitwit_trades:db / set value {\
 		{ name: "brown_wool",            texture: "MjJjYmQ5ZjQzNjE5YWI1Y2IxYjExZjkxY2IwM2U5NTVjNmZjNmM0NThhYmY4OWFiNjEwMzEzNDZhMDkwNjEyZSJ9fX0=", sound: "wool" },\
 		{ name: "calcite",               texture: "YTRhZDBkZGQ1M2ZlMmQzMDk1YmUyMDg1NWFhYTU1M2U5ZWViMGY5ODAxMzRjZjVlMDEyOGRjZjI5MDM3ZmY1NiJ9fX0=", sound: "calcite" },\
 		{ name: "chiseled_resin_bricks", texture: "MTVjZTkzODliZjU0ZDgwY2FiMjRhZTljNzhlNmMyZTlmOWNlNzc3YzNiNzYwZGZlZWRjMWJlODc4ZmZlMDAyNiJ9fX0=", sound: "resin_bricks" },\
+		{ name: "creaking_heart",        texture: "ZGJjZGE1M2U2OTYyNGMwOTkyOWI2OTJkMGM5MGRhN2I3NmFlMzllMzViZGZkNmY2N2IzMTI3YjE3Yjk3MDVkNyJ9fX0=", sound: "creaking_heart" },\
 		{ name: "cyan_wool",             texture: "MWZhZGY3NDFhYjc2Y2QzNjIwYWQxNjEzMDAyMDJkN2I1OWEzMzA1MWU1OTY3ZTRiNjE5NGJhYzQwYmIyODBmZiJ9fX0=", sound: "wool" },\
 		{ name: "dark_oak_log",          texture: "YjllOGE3YjM3ZjM0MmU4ZmI0NThhOWM5ODlmNTE5NmMyNjUxYjg3ODExZGU1NGZlMDVlNjFiZjRkMjg3Yjk5YiJ9fX0=", sound: "wood" },\
 		{ name: "dark_oak_planks",       texture: "NGZkOTE3ZmQ1OTNhN2FjNWJkZmUxZmM2NWQzMjBkZjQ2MTFkYTQzMWYzZWE0ZjM0YzdhMTkwMjBmNTEyIn19fQ==",     sound: "wood" },\
