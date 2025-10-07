@@ -1,0 +1,8 @@
+{
+    "parent": "nitwit_trades:jungle/oxidized_copper_chest",
+    "criteria": {
+        "nitwit_trades:jungle_cap": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "nitwit_trades:jungle/weathered_copper_chest",
+    "display": {
+        "icon": {
+            "id": "minecraft:oxidized_copper_chest"
+        },
+        "title": {
+            "translate": "block.minecraft.oxidized_copper_chest"
+        },
+        "description": "",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "criteria": {
+        "nitwit_trades:oxidized_copper_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:player_head",
+                        "components": {
+                            "minecraft:profile": {
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzNhZjNiZmRmNDg2ZWVmZjc4YzQ5ZGE0MDA5MDdiNDVhNGM0ZGI0ZDZmYjE1OTkwOWEzMjE3ZTA2OWM2NDBiMSJ9fX0="
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
