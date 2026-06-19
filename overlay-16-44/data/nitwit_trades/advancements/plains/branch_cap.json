@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:plains/bedrock",
-"criteria": { "nitwit_trades:plains_cap": { "trigger": "minecraft:location" } }
-}

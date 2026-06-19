@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:snow/white_wool",
-"criteria": { "nitwit_trades:snow_cap": { "trigger": "minecraft:location" } }
-}

@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:jungle/command_block",
-"criteria": { "nitwit_trades:jungle_cap": { "trigger": "minecraft:location" } }
-}

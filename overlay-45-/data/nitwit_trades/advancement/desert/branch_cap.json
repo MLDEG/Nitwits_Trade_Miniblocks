@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:desert/ominous_vault",
-"criteria": { "nitwit_trades:desert_cap": { "trigger": "minecraft:location" } }
-}

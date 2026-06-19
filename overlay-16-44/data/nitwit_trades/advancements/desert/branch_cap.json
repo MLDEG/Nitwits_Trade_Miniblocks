@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:desert/diamond_block",
-"criteria": { "nitwit_trades:desert_cap": { "trigger": "minecraft:location" } }
-}

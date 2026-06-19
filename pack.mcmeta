@@ -1,79 +1,17 @@
 {
 	"pack": {
-		"pack_format": 16,
-		"min_format": 16,
+		"min_format": 107,
 		"max_format": 999,
-		"supported_formats": {
-			"min_inclusive": 16,
-			"max_inclusive": 999
-		},
 		"description": "Nitwit have trades.",
 		"author": "MLDEG, AHL",
-		"last_update": "2025-03-23"
+		"last_update": "2026-06-19"
 	},
 	"overlays": {
 		"entries": [
 			{
-				"formats": {
-					"min_inclusive": 16,
-					"max_inclusive": 44
-				},
-				"directory": "overlay-16-44",
-				"min_format": 16,
-				"max_format": 44
-			},
-			{
-				"formats": {
-					"min_inclusive": 33,
-					"max_inclusive": 44
-				},
-				"directory": "overlay-33-44",
-				"min_format": 33,
-				"max_format": 44
-			},
-			{
-				"formats": {
-					"min_inclusive": 42,
-					"max_inclusive": 44
-				},
-				"directory": "overlay-42-44",
-				"min_format": 42,
-				"max_format": 44
-			},
-			{
-				"formats": {
-					"min_inclusive": 45,
-					"max_inclusive": 999
-				},
-				"directory": "overlay-45-",
-				"min_format": 45,
-				"max_format": 999
-			},
-			{
-				"formats": {
-					"min_inclusive": 58,
-					"max_inclusive": 999
-				},
-				"directory": "overlay-58-",
-				"min_format": 58,
-				"max_format": 999
-			},
-			{
-				"formats": {
-					"min_inclusive": 64,
-					"max_inclusive": 999
-				},
-				"directory": "overlay-64-",
-				"min_format": 64,
-				"max_format": 999
-			},
-			{
-				"formats": {
-					"min_inclusive": 88,
-					"max_inclusive": 999
-				},
-				"directory": "overlay-88-",
-				"min_format": 88,
+				"directory": "overlay-107.1-",
+				"__comment": "From 26.2.1 to #",
+				"min_format": 107.1,
 				"max_format": 999
 			}
 		]

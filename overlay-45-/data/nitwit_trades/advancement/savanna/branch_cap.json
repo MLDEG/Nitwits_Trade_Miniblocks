@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:savanna/oxidized_copper_bulb",
-"criteria": { "nitwit_trades:savanna_cap": { "trigger": "minecraft:location" } }
-}

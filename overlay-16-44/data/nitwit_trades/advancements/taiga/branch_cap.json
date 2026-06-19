@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:taiga/white_concrete",
-"criteria": { "nitwit_trades:taiga_cap": { "trigger": "minecraft:location" } }
-}

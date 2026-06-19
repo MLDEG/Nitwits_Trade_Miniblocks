@@ -1,4 +1,0 @@
-{
-"parent": "nitwit_trades:taiga/oxidized_chiseled_copper",
-"criteria": { "nitwit_trades:taiga_cap": { "trigger": "minecraft:location" } }
-}
