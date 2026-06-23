@@ -1,0 +1,8 @@
+{
+    "parent": "nitwit_trades:savanna/stripped_poplar_log",
+    "criteria": {
+        "nitwit_trades:savanna_cap": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

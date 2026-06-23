@@ -1,0 +1,37 @@
+{
+	"parent": "nitwit_trades:savanna/poplar_planks",
+	"display": {
+		"icon": {
+			"id": "minecraft:poplar_log"
+		},
+		"title": {
+			"translate": "block.minecraft.poplar_log"
+		},
+		"description": "",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"nitwit_trades:poplar_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdmZDhiNWFlODA2MWY3Zjk4NjgyMDFmMWZmYWM0YjcxMTgwNDQ2NjIxYzRhZjEwNDk1ZWU0MzA1ZjM3ODJkOCJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
